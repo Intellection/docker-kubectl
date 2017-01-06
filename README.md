@@ -9,5 +9,12 @@ on localhost.
 
 Find available [versions and their respective binaries here][2].
 
+## Usage
+
+```
+$ docker run zappi/kubectl:<VERSION> proxy -p 8080
+Starting to serve on 127.0.0.1:8080
+```
+
 [1]: http://kubernetes.io/docs/user-guide/accessing-the-cluster/#accessing-the-api-from-a-pod
 [2]: https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG.md#client-binaries
