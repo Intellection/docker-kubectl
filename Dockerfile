@@ -16,7 +16,6 @@ RUN apk update && \
     echo "${KUBECTL_SHA} *${KUBECTL_PACKAGE}" | sha256sum -c - && \
     tar --no-same-owner -xzf ${KUBECTL_PACKAGE} && \
     mv /kubernetes/client/bin/kubectl /usr/local/bin/kubectl && \
-    rm -R /kubernetes* && \
     apk del $BUILD_PACKAGES && \
     rm -rf /var/cache/apk/* /kubernetes*
 
