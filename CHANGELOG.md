@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.3
+
+* Package Kubernetes v1.5.3 client binary.
+
 ## 1.5.2
 
 * Package Kubernetes v1.5.2 client binary.
