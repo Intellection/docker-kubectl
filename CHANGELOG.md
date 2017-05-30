@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.3-1
+
+* Fix kubectl permissions.
+* Bump to Alpine 3.6.
+
 ## 1.5.3
 
 * Package Kubernetes v1.5.3 client binary.
