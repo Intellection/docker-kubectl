@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER Zappi DevOps <devops@zappistore.com>
+LABEL maintainer "Zappi DevOps <devops@zappistore.com>"
 
 ARG BUILD_DEPS="ca-certificates wget"
 ARG KUBECTL_VERSION="v1.6.6"
