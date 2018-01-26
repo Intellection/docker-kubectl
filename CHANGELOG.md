@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.12
+
+* Fix kubectl permissions.
+* Bump to Alpine 3.7.
+
 ## 1.5.3-1
 
 * Fix kubectl permissions.
