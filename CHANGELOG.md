@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.12
+
+* Package Kubernetes v1.7.12 client binary.
+* Bump to Alpine 3.7.
+
 ## 1.5.3-1
 
 * Fix kubectl permissions.
