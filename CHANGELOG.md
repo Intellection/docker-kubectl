@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.13
+
+* Package Kubernetes v1.8.13 client binary.
+
 ## 1.8.8
 
 * Package Kubernetes v1.8.8 client binary.
@@ -33,4 +37,3 @@
 ## 1.4.7
 
 * Package Kubernetes v1.4.7 client binary.
-
