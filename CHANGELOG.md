@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.11
+
+* Package Kubernetes v1.9.11 client binary.
+* Upgrade Alpine to v3.8.
+
 ## 1.8.13
 
 * Package Kubernetes v1.8.13 client binary.
