@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.6
+
+* Package Kubernetes v1.11.6 client binary.
+
 ## 1.10.11
 
 * Package Kubernetes v1.10.11 client binary.
