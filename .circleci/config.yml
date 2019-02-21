@@ -1,0 +1,22 @@
+version: 2
+
+references:
+  environment: &environment
+    IMAGE_NAME: "zappi/kubectl"
+
+jobs:
+  test:
+    docker:
+      - image: docker:17.03.0-ce-git
+    environment: *environment
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+          version: 17.03.0-ce
+      - run:
+          name: "Build Image"
+          command: docker build -t $IMAGE_NAME .
+      - run:
+          name: "Test Image"
+          command: docker run $IMAGE_NAME help
