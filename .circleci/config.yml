@@ -20,3 +20,9 @@ jobs:
       - run:
           name: "Test Image"
           command: docker run $IMAGE_NAME help
+
+workflows:
+  version: 2
+  build_test:
+    jobs:
+      - test
