@@ -3,9 +3,9 @@ FROM alpine:3.8
 LABEL maintainer "Zappi Devops <devops@zappistore.com>"
 
 ARG BUILD_DEPS="ca-certificates wget"
-ARG KUBECTL_VERSION="v1.11.7"
+ARG KUBECTL_VERSION="v1.12.9"
 ARG KUBECTL_PACKAGE="kubernetes-client-linux-amd64.tar.gz"
-ARG KUBECTL_SHA="da620f9ade85a0da2e9b4fb36cce08f871be2a0d36034f691ad48161e9c187643778b312e9ecdea348bc7f84c52e541db89d07a5e8f90debff6a618ab08bdd8b"
+ARG KUBECTL_SHA="e1c4945644e2434d0938a4a565672143156ceb517618a695f84e92a8bc04f514491323c54e4e53762ad8c6199578a6600e976b2010f27e2feb006227da3d1235"
 
 RUN apk update && \
     apk upgrade && \

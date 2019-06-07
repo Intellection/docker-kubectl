@@ -7,13 +7,13 @@ references:
 jobs:
   test:
     docker:
-      - image: docker:17.03.0-ce-git
+      - image: docker:18.06.3-ce-git
     environment: *environment
     steps:
       - checkout
       - setup_remote_docker:
           docker_layer_caching: true
-          version: 17.03.0-ce
+          version: 18.06.0-ce
       - run:
           name: "Build Image"
           command: docker build -t $IMAGE_NAME .
