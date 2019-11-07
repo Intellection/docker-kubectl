@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.13.12
+
+* Set command to `--help`.
+* Package Kubernetes v1.13.12 client binary.
+* Bump to Alpine 3.10.
+
 ## 1.12.9
 
 * Package Kubernetes v1.12.9 client binary.
