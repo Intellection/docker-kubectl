@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.8
+
+* Package Kubernetes v1.14.8 client binary.
+
 ## 1.13.12
 
 * Set command to `--help`.
